@@ -8,15 +8,15 @@ const types = {
 };
 
 const Image = ({src, ...props}) => {
-  return <BaseImage mb={3} width="120" src={src} {...props}/>
+  return <BaseImage mb={3} width="120" src={src} {...props}/>;
 };
 
 const Message = (props) => {
-  return <Heading fontSize={4} mb={3} fontWeight="normal" {...props}/>
+  return <Heading fontSize={4} mb={3} fontWeight="normal" {...props}/>;
 };
 
 const Detail = (props) => {
-  return <Text color="muted" mb={3} {...props}/>
+  return <Text color="muted" mb={3} {...props}/>;
 };
 
 const BaseContainer = ({image, src, message, detail, children, ...props}) => {
@@ -25,7 +25,7 @@ const BaseContainer = ({image, src, message, detail, children, ...props}) => {
     {message && <Message>{message}</Message>}
     {detail && <Detail>{detail}</Detail>}
     {children}
-  </Flex>
+  </Flex>;
 };
 
 const Container = styled(BaseContainer)`
@@ -51,7 +51,7 @@ const Ret = ({ret, children}) => {
     src={types[ret.retType || 'error']}
     message={ret.message}
     detail={ret.detail}
-  />
+  />;
 };
 
 Ret.Container = Container;
