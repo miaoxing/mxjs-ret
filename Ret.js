@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import styled from '@emotion/styled';
 import {Flex, Heading, Text, Image as BaseImage} from 'rebass';
 

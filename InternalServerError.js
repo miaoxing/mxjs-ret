@@ -1,6 +1,6 @@
-import React from "react";
-import {Result} from "antd";
-import {BtnLink} from "@mxjs/a-button";
+import React from 'react';
+import {Result} from 'antd';
+import {BtnLink} from '@mxjs/a-button';
 
 export default (props) => (
   <Result
