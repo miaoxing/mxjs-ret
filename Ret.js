@@ -38,7 +38,7 @@ const Ret = ({ret, children}) => {
     return '';
   }
 
-  if (ret.code === 1) {
+  if (ret.isSuc()) {
     return children;
   }
 
