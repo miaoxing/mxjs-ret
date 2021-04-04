@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import {Flex, Heading, Text, Image as BaseImage} from 'rebass';
+import {Flex, Heading, Text, Image as BaseImage} from '@mxjs/box';
 
 const types = {
   error: 'https://gw.alipayobjects.com/zos/rmsportal/GIyMDJnuqmcqPLpHCSkj.svg',

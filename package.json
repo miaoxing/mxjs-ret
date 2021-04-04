@@ -28,6 +28,6 @@
     "url": "https://github.com/twinh/miaoxing/issues"
   },
   "dependencies": {
-    "rebass": "^4.0.7"
+    "@mxjs/box": "^0.1.0"
   }
 }
