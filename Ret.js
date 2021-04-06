@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from '@emotion/styled';
 import {Flex, Heading, Text, Image as BaseImage} from '@mxjs/box';
 
 const types = {
@@ -19,19 +18,22 @@ const Detail = (props) => {
   return <Text color="muted" mb={4} {...props}/>;
 };
 
-const BaseContainer = ({image, src, message, detail, children, ...props}) => {
-  return <Flex alignItems="center" justifyContent="center" flexDirection="column" p={6} {...props}>
+const Container = ({image, src, message, detail, children, ...props}) => {
+  return <Flex
+    alignItems="center"
+    justifyContent="center"
+    flexDirection="column"
+    p={6}
+    h="100vh"
+    textAlign="center"
+    {...props}
+  >
     {image ? image : (src && <Image src={src}/>)}
     {message && <Message>{message}</Message>}
     {detail && <Detail>{detail}</Detail>}
     {children}
   </Flex>;
 };
-
-const Container = styled(BaseContainer)`
-  height: 100vh;
-  text-align: center;
-`;
 
 const Ret = ({ret, children}) => {
   if (!ret || !ret.code) {
