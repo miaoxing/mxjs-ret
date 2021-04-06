@@ -8,19 +8,19 @@ const types = {
 };
 
 const Image = ({src, ...props}) => {
-  return <BaseImage mb={3} width="120" src={src} {...props}/>;
+  return <BaseImage mb={4} width="120px" src={src} {...props}/>;
 };
 
 const Message = (props) => {
-  return <Heading fontSize={4} mb={3} fontWeight="normal" {...props}/>;
+  return <Heading fontSize="lg" mb={4} fontWeight="normal" {...props}/>;
 };
 
 const Detail = (props) => {
-  return <Text color="muted" mb={3} {...props}/>;
+  return <Text color="muted" mb={4} {...props}/>;
 };
 
 const BaseContainer = ({image, src, message, detail, children, ...props}) => {
-  return <Flex alignItems="center" justifyContent="center" flexDirection="column" p={4} {...props}>
+  return <Flex alignItems="center" justifyContent="center" flexDirection="column" p={6} {...props}>
     {image ? image : (src && <Image src={src}/>)}
     {message && <Message>{message}</Message>}
     {detail && <Detail>{detail}</Detail>}
