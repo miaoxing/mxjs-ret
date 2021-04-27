@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/ret",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/miaoxing#readme",
@@ -28,6 +28,6 @@
     "url": "https://github.com/twinh/miaoxing/issues"
   },
   "dependencies": {
-    "@mxjs/box": "^0.1.0"
+    "@mxjs/box": "^0.2.0"
   }
 }
