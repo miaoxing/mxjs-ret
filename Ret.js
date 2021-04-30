@@ -1,5 +1,6 @@
 import React from 'react';
 import {Flex, Heading, Text, Image as BaseImage} from '@mxjs/box';
+import PropTypes from 'prop-types';
 
 const types = {
   error: 'https://gw.alipayobjects.com/zos/rmsportal/GIyMDJnuqmcqPLpHCSkj.svg',
@@ -10,8 +11,16 @@ const Image = ({src, ...props}) => {
   return <BaseImage mb={4} width="120px" src={src} {...props}/>;
 };
 
+Image.propTypes = {
+  src: PropTypes.string,
+};
+
 const Message = (props) => {
   return <Heading fontSize="lg" mb={4} fontWeight="normal" {...props}/>;
+};
+
+Message.propTypes = {
+  src: PropTypes.string,
 };
 
 const Detail = (props) => {
@@ -35,6 +44,14 @@ const Container = ({image, src, message, detail, children, ...props}) => {
   </Flex>;
 };
 
+Container.propTypes = {
+  image: PropTypes.node,
+  src: PropTypes.string,
+  message: PropTypes.string,
+  detail: PropTypes.string,
+  children: PropTypes.node,
+};
+
 const Ret = ({ret, children}) => {
   if (!ret || !ret.code) {
     return '';
@@ -54,6 +71,11 @@ const Ret = ({ret, children}) => {
     message={ret.message}
     detail={ret.detail}
   />;
+};
+
+Ret.propTypes = {
+  ret: PropTypes.object,
+  children: PropTypes.node,
 };
 
 Ret.Container = Container;
