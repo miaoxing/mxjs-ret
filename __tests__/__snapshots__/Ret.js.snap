@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ret basic 1`] = `
+<div>
+  <div
+    class="css-3waj2m"
+  >
+    <img
+      class="chakra-image__placeholder css-90d413"
+    />
+    <h2
+      class="chakra-heading css-1835qym"
+    >
+      error
+    </h2>
+  </div>
+</div>
+`;
