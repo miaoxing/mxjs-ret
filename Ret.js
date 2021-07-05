@@ -1,4 +1,3 @@
-import React from 'react';
 import {Flex, Heading, Text, Image as BaseImage} from '@mxjs/box';
 import PropTypes from 'prop-types';
 
