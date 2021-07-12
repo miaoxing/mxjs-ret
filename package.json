@@ -49,6 +49,7 @@
     "react-dom": ">=16.13.1"
   },
   "ciDependencies": {
+    "miaoxing": "miaoxing/miaoxing-js",
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
     "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
     "@miaoxing/dev": "miaoxing/dev"

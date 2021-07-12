@@ -4,7 +4,7 @@ import {Ret as RetObject} from 'miaoxing';
 
 describe('Ret', () => {
   test('basic', () => {
-    const result = render(<Ret ret={RetObject.new({code: 1, message: 'error'})}/>);
+    const result = render(<Ret ret={RetObject.err('error')}/>);
     expect(result.container).toMatchSnapshot();
   });
 });
