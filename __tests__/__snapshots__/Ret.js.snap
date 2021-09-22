@@ -6,7 +6,8 @@ exports[`Ret basic 1`] = `
     class="css-3waj2m"
   >
     <img
-      class="chakra-image__placeholder css-90d413"
+      class="chakra-image css-90d413"
+      src="https://gw.alipayobjects.com/zos/rmsportal/GIyMDJnuqmcqPLpHCSkj.svg"
     />
     <h2
       class="chakra-heading css-1835qym"
