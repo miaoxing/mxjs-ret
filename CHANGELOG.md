@@ -1,3 +1,25 @@
+# [0.2.0](https://github.com/miaoxing/mxjs-ret/compare/v0.1.3...v0.2.0) (2021-10-28)
+
+
+### Features
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17 ([c28401b](https://github.com/miaoxing/mxjs-ret/commit/c28401b88fb5894b9e0bd4b4734654922c54eb92))
+
+
+### BREAKING CHANGES
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/box:** upgrade from `0.2.2` to `0.2.3`
+* **@mxjs/a-button:** upgrade from `0.2.12` to `0.3.0`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-ret/compare/v0.1.2...v0.1.3) (2021-05-12)
 
 
