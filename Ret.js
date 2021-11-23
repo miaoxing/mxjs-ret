@@ -1,4 +1,4 @@
-import {Flex, Heading, Text, Image as BaseImage} from '@mxjs/box';
+import {Box} from '@mxjs/box';
 import PropTypes from 'prop-types';
 
 const types = {
@@ -7,7 +7,7 @@ const types = {
 };
 
 const Image = ({src, ...props}) => {
-  return <BaseImage mb={4} width="120px" src={src} {...props}/>;
+  return <Box as="img" mb4 w="120px" src={src} {...props}/>;
 };
 
 Image.propTypes = {
@@ -15,7 +15,7 @@ Image.propTypes = {
 };
 
 const Message = (props) => {
-  return <Heading fontSize="lg" mb={4} fontWeight="normal" {...props}/>;
+  return <Box textLG mb4 {...props}/>;
 };
 
 Message.propTypes = {
@@ -23,24 +23,22 @@ Message.propTypes = {
 };
 
 const Detail = (props) => {
-  return <Text color="muted" mb={4} {...props}/>;
+  return <Box gray500 mb4 {...props}/>;
 };
 
 const Container = ({image, src, message, detail, children, ...props}) => {
-  return <Flex
-    alignItems="center"
-    justifyContent="center"
-    flexDirection="column"
-    p={6}
+  return <Box
+    toCenter
+    column
+    p6
     h="100vh"
-    textAlign="center"
     {...props}
   >
     {image ? image : (src && <Image src={src}/>)}
     {message && <Message>{message}</Message>}
     {detail && <Detail>{detail}</Detail>}
     {children}
-  </Flex>;
+  </Box>;
 };
 
 Container.propTypes = {
