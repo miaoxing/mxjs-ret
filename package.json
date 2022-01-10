@@ -33,7 +33,7 @@
   "dependencies": {
     "@mxjs/box": "^0.2.3",
     "@mxjs/a-button": "^0.3.0",
-    "antd": "^4.15.2",
+    "antd": "~4.17.4",
     "prop-types": "^15.7.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
