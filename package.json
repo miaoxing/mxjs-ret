@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/ret",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/twinh/miaoxing#readme",
@@ -31,15 +31,15 @@
     "preset": "jest-preset-miaoxing"
   },
   "dependencies": {
-    "@mxjs/box": "^0.2.3",
-    "@mxjs/a-button": "^0.3.0",
+    "@mxjs/box": "^0.3.0",
+    "@mxjs/a-button": "^0.4.0",
     "antd": "~4.17.4",
     "prop-types": "^15.7.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^8.0.0",
+    "@miaoxing/dev": "^8.0.1",
     "@testing-library/react": "^11.2.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
