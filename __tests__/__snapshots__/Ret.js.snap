@@ -3,17 +3,17 @@
 exports[`Ret basic 1`] = `
 <div>
   <div
-    class="css-3waj2m"
+    class="flexDirection-column p-24 h-100vh column-toCenter flex"
   >
     <img
-      class="chakra-image css-90d413"
+      class="mb-16 w-120px"
       src="https://gw.alipayobjects.com/zos/rmsportal/GIyMDJnuqmcqPLpHCSkj.svg"
     />
-    <h2
-      class="chakra-heading css-1835qym"
+    <div
+      class="textLG mb-16"
     >
       error
-    </h2>
+    </div>
   </div>
 </div>
 `;
