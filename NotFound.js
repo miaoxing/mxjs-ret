@@ -1,7 +1,7 @@
 import {Result} from 'antd';
 import {BtnLink} from '@mxjs/a-button';
 
-export default (props) => (
+const NotFound = (props) => (
   <Result
     status="404"
     title="404"
@@ -10,3 +10,5 @@ export default (props) => (
     {...props}
   />
 );
+
+export default NotFound;

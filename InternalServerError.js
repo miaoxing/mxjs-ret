@@ -1,7 +1,7 @@
 import {Result} from 'antd';
 import {BtnLink} from '@mxjs/a-button';
 
-export default (props) => (
+const InternalServerError = (props) => (
   <Result
     status="500"
     title="出错了"
@@ -10,3 +10,5 @@ export default (props) => (
     {...props}
   />
 );
+
+export default InternalServerError;
