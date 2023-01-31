@@ -1,3 +1,18 @@
+## [0.2.11](https://github.com/miaoxing/mxjs-ret/compare/v0.2.10...v0.2.11) (2023-01-31)
+
+
+### Features
+
+* 更新 `antd` 到 `~4.24.7` ([b238792](https://github.com/miaoxing/mxjs-ret/commit/b238792c17ebb1491546e098da24fe9c6be2bc3f))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-button:** upgrade from `1.1.3` to `1.2.0`
+
 ## [0.2.10](https://github.com/miaoxing/mxjs-ret/compare/v0.2.9...v0.2.10) (2023-01-01)
 
 
