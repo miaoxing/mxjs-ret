@@ -1,3 +1,13 @@
+## [0.2.15](https://github.com/miaoxing/mxjs-ret/compare/v0.2.14...v0.2.15) (2023-06-30)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/a-button:** upgrade from `2.0.0` to `3.0.0`
+
 ## [0.2.14](https://github.com/miaoxing/mxjs-ret/compare/v0.2.13...v0.2.14) (2023-05-31)
 
 
