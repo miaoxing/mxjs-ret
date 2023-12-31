@@ -1,3 +1,15 @@
+## [0.2.19](https://github.com/miaoxing/mxjs-ret/compare/v0.2.18...v0.2.19) (2023-12-31)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/box:** upgrade from `0.3.10` to `0.3.11`
+* **@mxjs/a-button:** upgrade from `3.0.3` to `3.0.4`
+* **@miaoxing/dev:** upgrade from `8.2.4` to `9.0.0`
+
 ## [0.2.18](https://github.com/miaoxing/mxjs-ret/compare/v0.2.17...v0.2.18) (2023-11-30)
 
 
