@@ -1,3 +1,19 @@
+## [0.2.21](https://github.com/miaoxing/mxjs-ret/compare/v0.2.20...v0.2.21) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([6ec3c91](https://github.com/miaoxing/mxjs-ret/commit/6ec3c91a11c41464c1983534baabf08f3e662dbe))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/box:** upgrade from `0.3.12` to `0.3.13`
+* **@mxjs/a-button:** upgrade from `3.0.5` to `3.1.0`
+
 ## [0.2.20](https://github.com/miaoxing/mxjs-ret/compare/v0.2.19...v0.2.20) (2024-01-08)
 
 
