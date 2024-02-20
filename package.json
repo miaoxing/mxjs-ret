@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/ret",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "description": "> TODO: description",
   "author": "twinh <twinhuang@qq.com>",
   "homepage": "https://github.com/miaoxing/miaoxing#readme",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@mxjs/box": "^0.3.13",
-    "@mxjs/a-button": "^3.1.0",
+    "@mxjs/a-button": "^3.2.0",
     "antd": "~5.1.6",
     "prop-types": "^15.7.2",
     "react-router": "^5.2.0",
